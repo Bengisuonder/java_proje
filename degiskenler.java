@@ -10,6 +10,8 @@ public class degiskenler {
         String isim="Bengisu";
         char cinsiyet='K';
         boolean isTrue=true;
+        final double PI = 3.14;
+
 
         System.out.println(a);
         System.out.println(b);
@@ -19,6 +21,7 @@ public class degiskenler {
         System.out.println(f);
         System.out.println(isim + " + " + cinsiyet);
         System.out.println(isTrue);
+        System.out.println(PI);
 
     }
 }
