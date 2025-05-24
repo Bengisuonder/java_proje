@@ -4,11 +4,14 @@ public class scanner {
     public static void main(String[]args)
     {
         Scanner input = new Scanner(System.in);
-        int yas;
+
         System.out.println("Yaşınızı giriniz: ");
-        yas = input.nextInt();
-        String isim;
+        int yas = input.nextInt();
+        System.out.println("Yaşınız: "+ yas);
+
+        Scanner ad = new Scanner(System.in);
         System.out.println("İsminizi giriniz: ");
-        isim = input.nextLine();
+        String isim = ad.nextLine();
+        System.out.println("İsminiz: "+isim);
     }
 }
